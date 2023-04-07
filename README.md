@@ -1,0 +1,1 @@
+This is a simple restaurant page. Based on basic webpack project initialization
