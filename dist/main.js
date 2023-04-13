@@ -1,1 +1,1 @@
-console.log("Learning webpack");
+(()=>{"use strict";document.getElementById("content").appendChild(function(){const e=document.createElement("div"),n=document.createElement("div"),t=document.createElement("img");return t.src="./images/logo.png",n.appendChild(t),n.innerHTML+="Bakery",e.id="navbar",n.id="logo",e.appendChild(n),e}())})();

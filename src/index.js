@@ -1,1 +1,4 @@
-console.log("Learning webpack");
+import buildWebsite from "./website";
+
+
+buildWebsite()

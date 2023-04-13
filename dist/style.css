@@ -20,12 +20,11 @@ body {
     width: 100%;
     display: flex;
     font-size: 2rem;
-    background-color: rgb(194, 116, 147);
+    background-color: rgba(12, 6, 8, 0.568);
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    opacity: .8;
 }
 
 #logo {
@@ -42,7 +41,8 @@ body {
     display: flex;
     list-style: none;
     gap: 25px;
-    opacity: 1
+    opacity: 1;
+    flex-wrap: wrap;
 }
 
 .navlink {
@@ -74,7 +74,7 @@ body {
 
 #menu {
     display: none;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
@@ -83,6 +83,7 @@ body {
 
 #menu>h1 {
     font-size: 3rem;
+    text-decoration-style: wavy;
 }
 
 .menu {
@@ -122,6 +123,7 @@ body {
     background-color: black;
     width: 50vw;
     /* display: flex; */
+    display: none;
     padding: 5rem;
     border-radius: 15px;
     opacity: .7;
