@@ -1,5 +1,6 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
+import loadContact from "./contact";
 
 function setActiveLink(button) {
     let links = [...document.querySelectorAll('.navlink')]
@@ -75,6 +76,7 @@ function createNav() {
             return
         }
         setActiveLink(contactLink)
+        loadContact()
 
 
     })

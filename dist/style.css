@@ -131,7 +131,7 @@ body {
     background-color: black;
     width: 50vw;
     /* display: flex; */
-    display: none;
+    /* display: none; */
     padding: 5rem;
     border-radius: 15px;
     opacity: .7;
