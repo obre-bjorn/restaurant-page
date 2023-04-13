@@ -48,6 +48,7 @@ body {
 .navlink {
     opacity: 1;
     transition: all 2s ease-in;
+    padding: 10px
 }
 
 .navlink:hover {
@@ -56,10 +57,15 @@ body {
     /* transition: all 2s ease-in; */
 }
 
+.navlink.active {
+    border-bottom: 2px solid;
+    box-sizing: border-box;
+}
+
 #home {
     height: 85vh;
-    display: none;
-    /* display: flex; */
+    /* display: none; */
+    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
