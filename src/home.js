@@ -1,4 +1,4 @@
-function Home() {
+function createHome() {
     let home = document.createElement('div')
     home.id = "home";
 
@@ -14,4 +14,10 @@ function Home() {
     return home
 }
 
-export default Home
+function loadHome() {
+    let main = document.querySelector('main')
+    main.textContent = ""
+    main.appendChild(createHome())
+}
+
+export default loadHome

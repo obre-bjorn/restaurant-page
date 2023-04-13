@@ -1,4 +1,5 @@
-import Home from "./home";
+import loadHome from "./home";
+import loadMenu from "./menu";
 
 function setActiveLink(button) {
     let links = [...document.querySelectorAll('.navlink')]
@@ -46,7 +47,7 @@ function createNav() {
             return
         }
         setActiveLink(homeLink)
-        Home()
+        loadHome()
 
     })
 
@@ -60,6 +61,7 @@ function createNav() {
                 return
             }
             setActiveLink(menuLink)
+            loadMenu()
 
 
         })
@@ -87,13 +89,19 @@ function createNav() {
 
 }
 
+function createMain() {
+    let main = document.createElement('main')
+    return main
+}
+
 
 
 function buildWebsite() {
     let content = document.getElementById('content');
     content.appendChild(createNav())
-    content.appendChild(Home())
+    content.appendChild(createMain())
 
+    loadHome()
 }
 
 
